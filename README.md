@@ -7,8 +7,8 @@ Sou Jorge Bandeo, um futuro engenheiro de computação apaixonado por tecnologia
 
 
 <div style="display: flex; align-items: center; gap: 0; width: 100%;">
-    <img src="https://github-readme-stats.vercel.app/api?username=jorgebandeo&show_icons=true&theme=ocean_dark&line_height=49&cache_seconds=180" alt="J.Bandeo GitHub stats" style="border: none;height: auto; width: 57%;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgebandeo&show_icons=true&theme=ocean_dark&card_width=100&cache_seconds=180" alt="Top Langs" style="border: none; height: auto; width: 41%;">
+    <img src="https://github-readme-stats.vercel.app/api?username=jorgebandeo&show_icons=true&theme=ocean_dark&line_height=49&cache_seconds=60" alt="J.Bandeo GitHub stats" style="border: none;height: auto; width: 57%;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgebandeo&show_icons=true&theme=ocean_dark&card_width=100&cache_seconds=60" alt="Top Langs" style="border: none; height: auto; width: 41%;">
 </div>
 
 ---
