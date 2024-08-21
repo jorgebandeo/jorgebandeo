@@ -21,7 +21,7 @@ Sou Jorge Bandeo, um futuro engenheiro de computação apaixonado por tecnologia
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ### Redes sociais:
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-bandeo-5762a51a6/)
-[![Blog](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://jorgebandeo.github.io/Portfolio/)
+[![Blog](https://img.shields.io/website?label=J.BANDEO.com&style=for-the-badge&url=https://sujeitoprogramador.com/)](https://jorgebandeo.github.io/Portfolio/)
 ---
 
 Sinta-se à vontade para explorar meus repositórios e acompanhar minha trajetória profissional. Se tiver interesse em colaborar ou trocar ideias, entre em contato!
