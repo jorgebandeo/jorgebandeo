@@ -14,10 +14,12 @@ Sou Jorge Bandeo, um futuro engenheiro de computação apaixonado por tecnologia
 [![Blog](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)]()
 
 <div style="display: flex;  align-items: center; gap: 0;">
-    <img src="https://github-readme-stats.vercel.app/api?username=jorgebandeo&show_icons=true&theme=ocean_dark" alt="J.Bandeo GitHub stats" style="border: none; margin: 10px; padding: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgebandeo&show_icons=true&theme=ocean_dark" alt="Top Langs" style="border: none; margin: 10px; padding: 10px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=jorgebandeo&show_icons=true&theme=ocean_dark" alt="J.Bandeo GitHub stats" style="border: none; margin: 10px; padding: 10px; height: 280px; width: auto; ">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorgebandeo&show_icons=true&theme=ocean_dark" alt="Top Langs" style="border: none; margin: 10px; padding: 10px;height: 280px ;width: auto;">
 </div>
 
 ---
 
 Sinta-se à vontade para explorar meus repositórios e acompanhar minha trajetória profissional. Se tiver interesse em colaborar ou trocar ideias, entre em contato!
+
+
