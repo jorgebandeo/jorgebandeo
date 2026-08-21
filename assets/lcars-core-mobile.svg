@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520">
+<style>
+.ticker{animation:move 12s linear infinite}.pulse{animation:p 2s ease-in-out infinite}@keyframes move{from{transform:translateX(0)}to{transform:translateX(-520px)}}@keyframes p{0%,100%{opacity:.45}50%{opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><clipPath id="clip"><rect x="36" y="438" width="648" height="46" rx="23"/></clipPath></defs>
+<rect width="720" height="520" rx="28" fill="#090B10"/>
+<text x="36" y="52" fill="#FF9A62" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700">01 // CORE SYSTEMS</text>
+<rect x="36" y="82" width="648" height="96" rx="22" fill="#101620" stroke="#6E1631" stroke-width="2"/>
+<rect x="36" y="82" width="142" height="96" rx="22" fill="#6E1631"/>
+<text x="62" y="126" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700">SOFTWARE</text>
+<text x="204" y="119" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="20">C# / .NET · APIs · SQL</text>
+<text x="204" y="151" fill="#AAB5C3" font-family="Arial,Helvetica,sans-serif" font-size="17">Corporate systems · business rules</text>
+<rect x="36" y="198" width="648" height="96" rx="22" fill="#101620" stroke="#FF9A62" stroke-width="2"/>
+<rect x="36" y="198" width="142" height="96" rx="22" fill="#FF9A62"/>
+<text x="51" y="242" fill="#111" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700">AUTOMATION</text>
+<text x="204" y="235" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="20">Processes · Integration</text>
+<text x="204" y="267" fill="#AAB5C3" font-family="Arial,Helvetica,sans-serif" font-size="17">Industrial optimization · management</text>
+<rect x="36" y="314" width="648" height="96" rx="22" fill="#101620" stroke="#6FA8DC" stroke-width="2"/>
+<rect x="36" y="314" width="142" height="96" rx="22" fill="#6FA8DC"/>
+<text x="52" y="358" fill="#111" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">ENGINEERING</text>
+<text x="204" y="351" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="20">Hardware + Software</text>
+<text x="204" y="383" fill="#AAB5C3" font-family="Arial,Helvetica,sans-serif" font-size="17">Embedded · system integration</text>
+<rect x="36" y="438" width="648" height="46" rx="23" fill="#121A25" stroke="#263446"/>
+<g clip-path="url(#clip)"><g class="ticker" font-family="Arial,Helvetica,sans-serif" font-size="15" fill="#D8DEE7"><text x="62" y="467">SYSTEMS • AUTOMATION • INDUSTRIAL • HARDWARE • SOFTWARE • INTEGRATION • SYSTEMS • AUTOMATION • INDUSTRIAL • HARDWARE</text></g></g>
+<circle class="pulse" cx="662" cy="52" r="5" fill="#7EE787"/>
+</svg>
