@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/lcars-header.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-header.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
+</a>
 
 <br>
 
@@ -11,15 +13,21 @@
 
 <br>
 
-<img src="./assets/lcars-core.svg" width="100%" alt="Core Systems">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-core.svg" width="100%" alt="Core Systems">
+</a>
 
 <br>
 
-<img src="./assets/lcars-stack.svg" width="100%" alt="Technology Matrix">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-stack.svg" width="100%" alt="Technology Matrix">
+</a>
 
 <br>
 
-<img src="./assets/lcars-architecture.svg" width="100%" alt="Software Architecture">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-architecture.svg" width="100%" alt="Software Architecture">
+</a>
 
 <br>
 
