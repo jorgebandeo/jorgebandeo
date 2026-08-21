@@ -2,8 +2,8 @@
 
 <a href="https://jorgebandeo.github.io/Portfolio/">
   <picture>
-    <source media="(max-width: 720px)" srcset="./assets/lcars-header-mobile.svg">
-    <img src="./assets/lcars-header-v3.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
+    <source media="(max-width: 720px)" srcset="./assets/lcars-header-mobile-v2.svg">
+    <img src="./assets/lcars-header-v4.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
   </picture>
 </a>
 
@@ -18,8 +18,8 @@
 
 <a href="https://jorgebandeo.github.io/Portfolio/">
   <picture>
-    <source media="(max-width: 720px)" srcset="./assets/lcars-core-mobile.svg">
-    <img src="./assets/lcars-core.svg" width="100%" alt="Core Systems">
+    <source media="(max-width: 720px)" srcset="./assets/lcars-core-mobile-v2.svg">
+    <img src="./assets/lcars-core-v2.svg" width="100%" alt="Core Systems">
   </picture>
 </a>
 
@@ -27,8 +27,8 @@
 
 <a href="https://jorgebandeo.github.io/Portfolio/">
   <picture>
-    <source media="(max-width: 720px)" srcset="./assets/lcars-stack-mobile.svg">
-    <img src="./assets/lcars-stack.svg" width="100%" alt="Technology Matrix">
+    <source media="(max-width: 720px)" srcset="./assets/lcars-stack-mobile-v2.svg">
+    <img src="./assets/lcars-stack-v2.svg" width="100%" alt="Technology Matrix">
   </picture>
 </a>
 
@@ -36,8 +36,8 @@
 
 <a href="https://jorgebandeo.github.io/Portfolio/">
   <picture>
-    <source media="(max-width: 720px)" srcset="./assets/lcars-architecture-mobile.svg">
-    <img src="./assets/lcars-architecture.svg" width="100%" alt="Software Architecture">
+    <source media="(max-width: 720px)" srcset="./assets/lcars-architecture-mobile-v2.svg">
+    <img src="./assets/lcars-architecture-v2.svg" width="100%" alt="Software Architecture">
   </picture>
 </a>
 
