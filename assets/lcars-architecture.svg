@@ -38,4 +38,12 @@
     <text x="742" y="372" fill="#6FA8DC" font-size="18">→</text>
     <text x="970" y="372" fill="#6FA8DC" font-size="18">→</text>
   </g>
+  <rect x="90" y="330" width="140" height="2" rx="1" fill="#C49AE8" opacity="0.8">
+    <animate attributeName="x" values="90;1120;90" dur="8.5s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#6FA8DC">
+    <circle cx="1284" cy="44" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1298" cy="44" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.28s" repeatCount="indefinite"/></circle>
+    <circle cx="1312" cy="44" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" begin="0.56s" repeatCount="indefinite"/></circle>
+  </g>
 </svg>
