@@ -2,28 +2,11 @@
   <rect width="1400" height="520" rx="28" fill="#090B10"/>
   <text x="36" y="52" fill="#6FA8DC" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">02 // TECHNOLOGY MATRIX</text>
   <g font-family="Arial, Helvetica, sans-serif">
-    <rect x="36" y="84" width="650" height="180" rx="22" fill="#101620" stroke="#6FA8DC"/>
-    <text x="62" y="122" fill="#8FC5F0" font-size="21" font-weight="700">BACK-END &amp; DATA</text>
-    <text x="62" y="164" fill="#FFFFFF" font-size="22">C# · .NET · SQL Server · REST · JSON</text>
-    <text x="62" y="202" fill="#AAB5C3" font-size="18">Stored Procedures · Transactions · Integrations</text>
-    <text x="62" y="234" fill="#AAB5C3" font-size="18">Business Rules · Data Consistency</text>
-
-    <rect x="714" y="84" width="650" height="180" rx="22" fill="#101620" stroke="#FF9A62"/>
-    <text x="740" y="122" fill="#FFB17B" font-size="21" font-weight="700">FRONT-END</text>
-    <text x="740" y="164" fill="#FFFFFF" font-size="22">HTML5 · CSS3 · JavaScript</text>
-    <text x="740" y="202" fill="#AAB5C3" font-size="18">Responsive Interfaces · DOM</text>
-    <text x="740" y="234" fill="#AAB5C3" font-size="18">GitHub Pages · Web UX</text>
-
-    <rect x="36" y="292" width="650" height="180" rx="22" fill="#101620" stroke="#C49AE8"/>
-    <text x="62" y="330" fill="#D5B8EF" font-size="21" font-weight="700">AI &amp; COMPUTER VISION</text>
-    <text x="62" y="372" fill="#FFFFFF" font-size="22">Python · OpenCV · YOLO · TensorFlow · PyTorch</text>
-    <text x="62" y="410" fill="#AAB5C3" font-size="18">Computer Vision · Deep Learning</text>
-    <text x="62" y="442" fill="#AAB5C3" font-size="18">Object Detection · Image Processing</text>
-
-    <rect x="714" y="292" width="650" height="180" rx="22" fill="#101620" stroke="#7EE787"/>
-    <text x="740" y="330" fill="#9BE9A8" font-size="21" font-weight="700">DEVOPS &amp; TOOLING</text>
-    <text x="740" y="372" fill="#FFFFFF" font-size="22">Git · GitHub · Bitbucket · Jenkins</text>
-    <text x="740" y="410" fill="#AAB5C3" font-size="18">Version Control · CI/CD · Pipelines</text>
-    <text x="740" y="442" fill="#AAB5C3" font-size="18">Build · Deploy · Automation</text>
+    <rect x="36" y="84" width="650" height="180" rx="22" fill="#101620" stroke="#6FA8DC"/><text x="62" y="122" fill="#8FC5F0" font-size="21" font-weight="700">BACK-END &amp; DATA</text><text x="62" y="164" fill="#FFFFFF" font-size="22">C# · .NET · SQL Server · REST · JSON</text><text x="62" y="202" fill="#AAB5C3" font-size="18">Stored Procedures · Transactions · Integrations</text><text x="62" y="234" fill="#AAB5C3" font-size="18">Business Rules · Data Consistency</text>
+    <rect x="714" y="84" width="650" height="180" rx="22" fill="#101620" stroke="#FF9A62"/><text x="740" y="122" fill="#FFB17B" font-size="21" font-weight="700">FRONT-END</text><text x="740" y="164" fill="#FFFFFF" font-size="22">HTML5 · CSS3 · JavaScript</text><text x="740" y="202" fill="#AAB5C3" font-size="18">Responsive Interfaces · DOM</text><text x="740" y="234" fill="#AAB5C3" font-size="18">GitHub Pages · Web UX</text>
+    <rect x="36" y="292" width="650" height="180" rx="22" fill="#101620" stroke="#C49AE8"/><text x="62" y="330" fill="#D5B8EF" font-size="21" font-weight="700">AI &amp; COMPUTER VISION</text><text x="62" y="372" fill="#FFFFFF" font-size="22">Python · OpenCV · YOLO · TensorFlow · PyTorch</text><text x="62" y="410" fill="#AAB5C3" font-size="18">Computer Vision · Deep Learning</text><text x="62" y="442" fill="#AAB5C3" font-size="18">Object Detection · Image Processing</text>
+    <rect x="714" y="292" width="650" height="180" rx="22" fill="#101620" stroke="#7EE787"/><text x="740" y="330" fill="#9BE9A8" font-size="21" font-weight="700">DEVOPS &amp; TOOLING</text><text x="740" y="372" fill="#FFFFFF" font-size="22">Git · GitHub · Bitbucket · Jenkins</text><text x="740" y="410" fill="#AAB5C3" font-size="18">Version Control · CI/CD · Pipelines</text><text x="740" y="442" fill="#AAB5C3" font-size="18">Build · Deploy · Automation</text>
   </g>
+  <rect x="36" y="72" width="220" height="2" rx="1" fill="#6FA8DC" opacity="0.75"><animate attributeName="x" values="36;1144;36" dur="10s" repeatCount="indefinite"/></rect>
+  <g fill="#FF9A62"><circle cx="1290" cy="44" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="1304" cy="44" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" begin="0.35s" repeatCount="indefinite"/></circle><circle cx="1318" cy="44" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" begin="0.7s" repeatCount="indefinite"/></circle></g>
 </svg>
