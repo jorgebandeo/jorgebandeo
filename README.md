@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://jorgebandeo.github.io/Portfolio/">
-  <img src="./assets/lcars-header.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
+  <img src="./assets/lcars-header-v2.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
 </a>
 
 <br>
