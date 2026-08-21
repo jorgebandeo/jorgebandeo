@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#090B10"/>
+      <stop offset="100%" stop-color="#111722"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6FA8DC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6FA8DC" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#6FA8DC" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .pulse-dot { animation: pulseDot 1.7s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .pulse-ring { animation: pulseRing 1.7s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    .scan-line { animation: scanMove 7s ease-in-out infinite; }
+    .bar-orange { animation: barPulse 5s ease-in-out infinite; }
+    .bar-purple { animation: barPulse 6s ease-in-out .8s infinite; }
+    .bar-blue { animation: barPulse 7s ease-in-out 1.2s infinite; }
+    .status-pill { animation: pillPulse 2.6s ease-in-out infinite; }
+    .status-a { animation: statusBlink 1.2s ease-in-out infinite; }
+    .status-b { animation: statusBlink 1.2s ease-in-out .22s infinite; }
+    .status-c { animation: statusBlink 1.2s ease-in-out .44s infinite; }
+    @keyframes pulseDot { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.30); opacity: .74; } }
+    @keyframes pulseRing { 0% { transform: scale(.7); opacity: .48; } 100% { transform: scale(2); opacity: 0; } }
+    @keyframes scanMove { 0%,100% { transform: translateX(0); opacity: .2; } 50% { transform: translateX(880px); opacity: 1; } }
+    @keyframes barPulse { 0%,100% { opacity: .82; } 50% { opacity: 1; } }
+    @keyframes pillPulse { 0%,100% { stroke-opacity: .45; } 50% { stroke-opacity: .9; } }
+    @keyframes statusBlink { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
+  </style>
+
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="180" height="312" rx="28" fill="#6E1631"/>
+
+  <rect class="bar-orange" x="224" y="24" width="420" height="54" rx="27" fill="#FF9A62"/>
+  <rect class="bar-purple" x="664" y="24" width="230" height="54" rx="27" fill="#C49AE8"/>
+  <rect class="bar-blue" x="914" y="24" width="462" height="54" rx="27" fill="#6FA8DC"/>
+
+  <rect x="224" y="96" width="1152" height="240" rx="24" fill="#0F141D" stroke="#222B38"/>
+  <rect class="scan-line" x="238" y="105" width="170" height="2" rx="1" fill="url(#scan)"/>
+
+  <text x="262" y="158" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">JORGE BANDEO</text>
+
+  <rect class="status-pill" x="738" y="119" width="146" height="43" rx="21.5" fill="#0C1711" fill-opacity="0.72" stroke="#7EE787" stroke-width="1" stroke-opacity="0.55"/>
+  <circle class="pulse-ring" cx="763" cy="140.5" r="10" fill="#7EE787" opacity="0.42"/>
+  <circle class="pulse-dot" cx="763" cy="140.5" r="6.5" fill="#7EE787" filter="url(#glow)"/>
+  <text x="782" y="148" fill="#7EE787" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">ONLINE</text>
+
+  <text x="264" y="206" fill="#AAB5C3" font-family="Arial, Helvetica, sans-serif" font-size="24">COMPUTER ENGINEER // SYSTEMS DEVELOPER</text>
+  <text x="264" y="252" fill="#FFB17B" font-family="Arial, Helvetica, sans-serif" font-size="20">SOFTWARE · ARCHITECTURE · AUTOMATION · AI · HARDWARE</text>
+  <text x="264" y="300" fill="#7F8A99" font-family="Arial, Helvetica, sans-serif" font-size="16">UNIVALI · 2024 · SANTA CATARINA / BRAZIL</text>
+  <text x="58" y="296" fill="#F6D8E0" font-family="Arial, Helvetica, sans-serif" font-size="18" transform="rotate(-90 58 296)">LCARS // PROFILE</text>
+
+  <g fill="#7EE787">
+    <circle class="status-a" cx="1305" cy="302" r="3"/>
+    <circle class="status-b" cx="1320" cy="302" r="3"/>
+    <circle class="status-c" cx="1335" cy="302" r="3"/>
+  </g>
+</svg>
