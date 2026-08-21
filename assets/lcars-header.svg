@@ -1,21 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#090B10"/>
-      <stop offset="100%" stop-color="#111722"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" x2="1"><stop offset="0%" stop-color="#090B10"/><stop offset="100%" stop-color="#111722"/></linearGradient>
+    <linearGradient id="scan" x1="0" x2="1"><stop offset="0%" stop-color="#6FA8DC" stop-opacity="0"/><stop offset="50%" stop-color="#6FA8DC" stop-opacity="0.75"/><stop offset="100%" stop-color="#6FA8DC" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
   <rect x="24" y="24" width="180" height="312" rx="28" fill="#6E1631"/>
-  <rect x="224" y="24" width="420" height="54" rx="27" fill="#FF9A62"/>
-  <rect x="664" y="24" width="230" height="54" rx="27" fill="#C49AE8"/>
-  <rect x="914" y="24" width="462" height="54" rx="27" fill="#6FA8DC"/>
+  <rect x="224" y="24" width="420" height="54" rx="27" fill="#FF9A62"><animate attributeName="opacity" values="0.82;1;0.82" dur="5s" repeatCount="indefinite"/></rect>
+  <rect x="664" y="24" width="230" height="54" rx="27" fill="#C49AE8"><animate attributeName="opacity" values="1;0.72;1" dur="6s" begin="0.8s" repeatCount="indefinite"/></rect>
+  <rect x="914" y="24" width="462" height="54" rx="27" fill="#6FA8DC"><animate attributeName="opacity" values="0.75;1;0.75" dur="7s" begin="1.3s" repeatCount="indefinite"/></rect>
   <rect x="224" y="96" width="1152" height="240" rx="24" fill="#0F141D" stroke="#222B38"/>
+  <rect x="236" y="104" width="180" height="2" rx="1" fill="url(#scan)" opacity="0.85"><animate attributeName="x" values="236;1160;236" dur="9s" repeatCount="indefinite"/></rect>
   <text x="262" y="158" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">JORGE BANDEO</text>
+  <circle cx="700" cy="143" r="7" fill="#7EE787" filter="url(#glow)"><animate attributeName="r" values="7;10;7" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.55;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="720" y="150" fill="#7EE787" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">ONLINE</text>
   <text x="264" y="206" fill="#AAB5C3" font-family="Arial, Helvetica, sans-serif" font-size="24">COMPUTER ENGINEER // SYSTEMS DEVELOPER</text>
   <text x="264" y="252" fill="#FFB17B" font-family="Arial, Helvetica, sans-serif" font-size="20">SOFTWARE · ARCHITECTURE · AUTOMATION · AI · HARDWARE</text>
-  <circle cx="1288" cy="152" r="8" fill="#7EE787"/>
-  <text x="1310" y="159" fill="#7EE787" font-family="Arial, Helvetica, sans-serif" font-size="18">ONLINE</text>
   <text x="264" y="300" fill="#7F8A99" font-family="Arial, Helvetica, sans-serif" font-size="16">UNIVALI · 2024 · SANTA CATARINA / BRAZIL</text>
   <text x="58" y="296" fill="#F6D8E0" font-family="Arial, Helvetica, sans-serif" font-size="18" transform="rotate(-90 58 296)">LCARS // PROFILE</text>
+  <g fill="#7EE787"><circle cx="1310" cy="302" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/></circle><circle cx="1324" cy="302" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" begin="0.25s" repeatCount="indefinite"/></circle><circle cx="1338" cy="302" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" begin="0.5s" repeatCount="indefinite"/></circle></g>
 </svg>
