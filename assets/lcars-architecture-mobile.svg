@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="470" viewBox="0 0 720 470">
+<style>.ticker{animation:move 12s linear infinite}.pulse{animation:p 2s ease-in-out infinite}@keyframes move{from{transform:translateX(0)}to{transform:translateX(-500px)}}@keyframes p{0%,100%{opacity:.4}50%{opacity:1}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<defs><clipPath id="c"><rect x="36" y="388" width="648" height="46" rx="23"/></clipPath></defs>
+<rect width="720" height="470" rx="28" fill="#090B10"/>
+<text x="36" y="52" fill="#C49AE8" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700">03 // SOFTWARE ARCHITECTURE</text>
+<rect x="36" y="84" width="648" height="82" rx="20" fill="#101620" stroke="#FF9A62"/>
+<text x="58" y="116" fill="#FFB17B" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">DESIGN</text>
+<text x="190" y="116" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="18">SOLID · Clean Architecture</text>
+<text x="190" y="143" fill="#AAB5C3" font-family="Arial,Helvetica,sans-serif" font-size="15">Patterns · Dependency Injection</text>
+<rect x="36" y="184" width="648" height="82" rx="20" fill="#101620" stroke="#C49AE8"/>
+<text x="58" y="216" fill="#D5B8EF" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">DATA</text>
+<text x="190" y="216" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="18">Repository · Unit of Work</text>
+<text x="190" y="243" fill="#AAB5C3" font-family="Arial,Helvetica,sans-serif" font-size="15">Transactional Outbox · Transactions</text>
+<rect x="36" y="284" width="648" height="82" rx="20" fill="#101620" stroke="#6FA8DC"/>
+<text x="58" y="316" fill="#8FC5F0" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700">INTEGRATION</text>
+<text x="190" y="316" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="18">REST APIs · Layered Systems</text>
+<text x="190" y="343" fill="#AAB5C3" font-family="Arial,Helvetica,sans-serif" font-size="15">Decoupling · Service Integration</text>
+<rect x="36" y="388" width="648" height="46" rx="23" fill="#121A25" stroke="#263446"/>
+<g clip-path="url(#c)"><g class="ticker"><text x="62" y="417" fill="#D8DEE7" font-family="Arial,Helvetica,sans-serif" font-size="15">CLIENT → API → APPLICATION → DOMAIN → DATA / INTEGRATION • CLIENT → API → APPLICATION → DOMAIN</text></g></g>
+<circle class="pulse" cx="662" cy="52" r="5" fill="#7EE787"/>
+</svg>
