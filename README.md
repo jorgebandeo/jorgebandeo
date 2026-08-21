@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/lcars-header.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-header.svg" width="100%" alt="Jorge Bandeo — Computer Engineer">
+</a>
 
 <br>
 
@@ -11,15 +13,21 @@
 
 <br>
 
-<img src="./assets/lcars-core.svg" width="100%" alt="Core Systems">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-core.svg" width="100%" alt="Core Systems">
+</a>
 
 <br>
 
-<img src="./assets/lcars-stack.svg" width="100%" alt="Technology Matrix">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-stack.svg" width="100%" alt="Technology Matrix">
+</a>
 
 <br>
 
-<img src="./assets/lcars-architecture.svg" width="100%" alt="Software Architecture">
+<a href="https://jorgebandeo.github.io/Portfolio/">
+  <img src="./assets/lcars-architecture.svg" width="100%" alt="Software Architecture">
+</a>
 
 <br>
 
@@ -27,17 +35,8 @@
 
 <div align="center">
 
-<img
-  width="48%"
-  src="https://github-stats-extended.vercel.app/api?username=jorgebandeo&show_icons=true&include_all_commits=true&hide_border=true&bg_color=090B10&title_color=FF9966&text_color=C9D1D9&icon_color=CC99CC"
-  alt="GitHub Stats"
-/>
-
-<img
-  width="48%"
-  src="https://github-stats-extended.vercel.app/api/top-langs/?username=jorgebandeo&layout=compact&langs_count=8&hide_border=true&bg_color=090B10&title_color=6699CC&text_color=C9D1D9"
-  alt="Top Languages"
-/>
+<img width="48%" src="https://github-stats-extended.vercel.app/api?username=jorgebandeo&show_icons=true&include_all_commits=true&hide_border=true&bg_color=090B10&title_color=FF9966&text_color=C9D1D9&icon_color=CC99CC" alt="GitHub Stats" />
+<img width="48%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=jorgebandeo&layout=compact&langs_count=8&hide_border=true&bg_color=090B10&title_color=6699CC&text_color=C9D1D9" alt="Top Languages" />
 
 </div>
 
