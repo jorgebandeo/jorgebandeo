@@ -26,4 +26,12 @@
     <text x="740" y="410" fill="#AAB5C3" font-size="18">Version Control · CI/CD · Pipelines</text>
     <text x="740" y="442" fill="#AAB5C3" font-size="18">Build · Deploy · Automation</text>
   </g>
+  <rect x="36" y="72" width="220" height="2" rx="1" fill="#6FA8DC" opacity="0.75">
+    <animate attributeName="x" values="36;1144;36" dur="10s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#FF9A62">
+    <circle cx="1290" cy="44" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1304" cy="44" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" begin="0.35s" repeatCount="indefinite"/></circle>
+    <circle cx="1318" cy="44" r="3"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.8s" begin="0.7s" repeatCount="indefinite"/></circle>
+  </g>
 </svg>
