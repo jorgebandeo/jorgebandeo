@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bennie Flow — Gestão de Produção</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="bunny" aria-hidden="true"><span class="ear e1"></span><span class="ear e2"></span><span class="face">•ᴗ•</span></div>
+        <div><strong>Bennie Flow</strong><small>produção com carinho</small></div>
+      </div>
+      <nav>
+        <button class="nav active" data-view="dashboard">⌂ <span>Visão geral</span></button>
+        <button class="nav" data-view="orders">♡ <span>Pedidos</span><em>8</em></button>
+        <button class="nav" data-view="quotes">✦ <span>Cotações</span><em>3</em></button>
+        <button class="nav" data-view="schedule">◷ <span>Produção</span></button>
+        <button class="nav" data-view="stock">▣ <span>Materiais</span></button>
+        <button class="nav" data-view="products">◇ <span>Produtos</span></button>
+      </nav>
+      <div class="side-card">
+        <span>Capacidade da semana</span>
+        <strong>76%</strong>
+        <div class="meter"><i style="width:76%"></i></div>
+        <small>12h 40min ainda disponíveis</small>
+      </div>
+    </aside>
+
+    <main>
+      <header>
+        <div><p class="eyebrow">Sexta-feira, 22 de agosto</p><h1>Bom dia, Bennie! <span>♡</span></h1></div>
+        <div class="header-actions"><button class="ghost">🔔</button><button id="newOrder" class="primary">＋ Novo pedido</button></div>
+      </header>
+
+      <section id="dashboard" class="view active-view">
+        <div class="alert"><div><b>✦ Agenda inteligente</b><span>O próximo prazo seguro para um pedido de adesivos é <strong>27 ago.</strong></span></div><button data-view="schedule">Ver agenda →</button></div>
+
+        <div class="kpis">
+          <article><span>Pedidos ativos</span><strong>18</strong><small class="up">↑ 3 esta semana</small></article>
+          <article><span>Em produção</span><strong>7</strong><small>3 etapas hoje</small></article>
+          <article><span>Aguardando cliente</span><strong>4</strong><small class="warn">2 precisam de arte</small></article>
+          <article><span>Entregas da semana</span><strong>11</strong><small class="up">9 no prazo</small></article>
+        </div>
+
+        <div class="grid-main">
+          <section class="card schedule-card">
+            <div class="card-head"><div><span class="tag">CRONOGRAMA</span><h2>Produção de hoje</h2></div><button class="link" data-view="schedule">Abrir agenda</button></div>
+            <div id="todayTimeline" class="timeline"></div>
+          </section>
+
+          <section class="card material-card">
+            <div class="card-head"><div><span class="tag">ESTOQUE</span><h2>Atenção aos materiais</h2></div><button class="link" data-view="stock">Ver todos</button></div>
+            <div id="materialList"></div>
+          </section>
+        </div>
+
+        <section class="card orders-card">
+          <div class="card-head"><div><span class="tag">PEDIDOS</span><h2>Fila de produção</h2></div><div class="filters"><button class="chip active">Todos</button><button class="chip">Urgentes</button><button class="chip">Hoje</button></div></div>
+          <div id="orderTable" class="order-table"></div>
+        </section>
+      </section>
+
+      <section id="orders" class="view"><div class="page-title"><div><span class="tag">PEDIDOS</span><h2>Pedidos e encomendas</h2><p>Controle cada item, arte, quantidade produzida, perdas e prazos.</p></div><button class="primary" id="newOrder2">＋ Novo pedido</button></div><div id="ordersBoard" class="kanban"></div></section>
+
+      <section id="quotes" class="view"><div class="page-title"><div><span class="tag">COTAÇÕES</span><h2>Cotações rápidas</h2><p>O cliente informa produto e quantidade; o sistema calcula preço, materiais e primeira data segura disponível.</p></div><button class="primary">＋ Nova cotação</button></div><div class="quote-layout"><div class="card quote-form"><label>Produto<select id="quoteProduct"></select></label><label>Quantidade<input id="quoteQty" type="number" min="1" value="100"></label><label>Data desejada<input id="quoteDate" type="date"></label><button id="calcQuote" class="primary wide">Calcular cotação</button></div><div id="quoteResult" class="card quote-result"></div></div></section>
+
+      <section id="schedule" class="view"><div class="page-title"><div><span class="tag">PRODUÇÃO</span><h2>Agenda por processo</h2><p>Os pedidos confirmados ocupam automaticamente os recursos e recebem margem de segurança.</p></div></div><div id="productionGrid" class="production-grid"></div></section>
+
+      <section id="stock" class="view"><div class="page-title"><div><span class="tag">MATERIAIS</span><h2>Matéria-prima</h2><p>Saldo atual, reserva por pedidos e necessidade prevista.</p></div></div><div id="stockGrid" class="stock-grid"></div></section>
+
+      <section id="products" class="view"><div class="page-title"><div><span class="tag">ESTRUTURA DE PRODUTO</span><h2>Produtos e roteiros</h2><p>Cada produto possui materiais, consumo por unidade e etapas com tempo de preparação e produção.</p></div></div><div id="productGrid" class="product-grid"></div></section>
+    </main>
+  </div>
+
+  <dialog id="orderDialog">
+    <form method="dialog" class="modal">
+      <div class="modal-head"><div><span class="tag">NOVO PEDIDO</span><h2>Registrar encomenda</h2></div><button class="close">×</button></div>
+      <div class="form-grid"><label>Cliente<input placeholder="Nome do cliente"></label><label>Produto<select><option>Adesivo holográfico A6</option><option>Print A5</option><option>Chaveiro acrílico</option></select></label><label>Quantidade<input type="number" value="100"></label><label>Data desejada<input type="date"></label></div>
+      <label>Observações do item<textarea placeholder="Cor, acabamento, referência, detalhes da arte..."></textarea></label>
+      <div class="dropzone">♡ Arraste imagens/referências aqui <small>(conceitual — upload real virá no backend)</small></div>
+      <div class="safe-date"><span>✦</span><div><b>Validação automática de prazo</b><small>Ao confirmar, o sistema reservará materiais e encaixará cada etapa na primeira janela disponível + margem de segurança.</small></div></div>
+      <div class="modal-actions"><button value="cancel" class="ghost2">Cancelar</button><button value="default" class="primary">Criar pedido</button></div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
